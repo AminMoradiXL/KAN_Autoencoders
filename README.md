@@ -83,12 +83,10 @@ To monitor experiments and model performance with wandb:
 If this project is used in your research or referenced for baseline results, please use the following BibTeX entry.
 ```bibtex
 @misc{torchkan,
-  author = {Subhransu S. Bhattacharjee},
-  title = {TorchKAN: Simplified KAN Model with Variations},
+  author = {Moradi, Mohammadamin and Panahi, Shirin and Lai, Ying-Cheng},
+  title = {Kolmogorov-Arnold Network (KAN) Autoencoders},
   year = {2024},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/1ssb/torchkan/}}
+  publisher = {arxiv}
 }
 ```
 
