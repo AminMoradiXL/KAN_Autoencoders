@@ -95,6 +95,6 @@ If this project is used in your research or referenced for baseline results, ple
 Contributions are welcome. Please raise issues as needed. Maintained solely by @1ssb.
 
 ## References
-*[0] Ziming Liu et al., "KAN: Kolmogorov-Arnold Networks", 2024, arXiv. https://arxiv.org/abs/2404.19756
-*[1] https://github.com/KindXiaoming/pykan
-*[2] https://github.com/Blealtan/efficient-kan
+* [0] Ziming Liu et al., "KAN: Kolmogorov-Arnold Networks", 2024, arXiv. https://arxiv.org/abs/2404.19756
+* [1] https://github.com/KindXiaoming/pykan
+* [2] https://github.com/Blealtan/efficient-kan
