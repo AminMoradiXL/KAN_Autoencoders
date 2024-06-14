@@ -30,9 +30,8 @@ For a given input image, the monomials of its flattened pixel values are compute
 
 Note KANvolver uses polynomials which are distinct from the original KANs[1].
 
-## Introducing KAL_Net
+## Key Features
 
-### Key Features
 Polynomial Order: Utilizes Legendre polynomials up to a specific order for each input normalization, capturing nonlinear relationships more efficiently than simpler polynomial approximations.
 Efficient Computations: By leveraging functools.lru_cache, the network avoids redundant computations, enhancing the forward pass's speed.
 Activation Function: Employs the SiLU (Sigmoid Linear Unit) for improved performance in deeper networks due to its non-monotonic nature.
