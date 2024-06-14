@@ -72,8 +72,10 @@ cd torchkan
 pip install -r requirements.txt
 
 ### 2. Configure CUDA Environment Variables if Unset:
+```python
 export PATH=/usr/local/cuda/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+```
 3. Configure Weights & Biases (wandb)
 To monitor experiments and model performance with wandb:
 
