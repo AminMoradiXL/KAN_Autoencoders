@@ -19,11 +19,9 @@ Note: As the model is still being researched, further explorations into its full
 Note: The PyPI pipeline is currently deprecated and will be stabilized following the release of Version 1.
 
 ## Introduction to the KANvolver Model
-The KANvolver model is a specialized neural network designed for classifying images from the MNIST dataset. It achieves an at best accuracy of ~99.56% with a minimal error rate of 0.18%. This model combines convolutional neural networks (CNNs) with polynomial feature expansions, effectively capturing both simple and complex patterns.
+Deep learning models have revolutionized various domains, with Multi-Layer Perceptrons (MLPs) being a cornerstone for tasks like image classification. However, recent advancements have introduced Kolmogorov-Arnold Networks (KANs) as promising alternatives to MLPs, leveraging activation functions placed on edges rather than nodes. This structural shift aligns KANs closely with the Kolmogorov-Arnold representation theorem, potentially enhancing both model accuracy and interpretability. In this study, we explore the efficacy of KANs in the context of data representation via autoencoders, comparing their performance with traditional Convolutional Neural Networks (CNNs) on the MNIST dataset. Our results demonstrate that KAN-based autoencoders not only achieve competitive performance in terms of reconstruction accuracy but also offer insights into the interpretability of learned representations, thereby suggesting their viability as effective tools in data analysis tasks.
 
-I am conducting large-scale analysis to investigate how KANs can be made more interpretable.
-
-Thanks to @cometscome to have written this version in Julia: https://github.com/cometscome/FluxKAN.jl
+We are conducting large-scale analysis to investigate how AE-KANs can be made more efficient.
 
 ## Model Architecture
 Convolutional Feature Extraction: The model begins with two convolutional layers, each paired with ReLU activation and max-pooling. The first layer employs 16 filters of size 3x3, while the second increases the feature maps to 32 channels.
