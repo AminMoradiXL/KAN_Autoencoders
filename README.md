@@ -1,6 +1,6 @@
-# AE_KAN: Autoencoders using KAN 
+# AE-KAN: Autoencoders using KAN 
 
-AE_KAN introduces a autoencoder model using KAN for high-performance image classification and leveraging polynomial transformations for enhanced feature detection.
+AE-KAN introduces a autoencoder model using KAN for high-performance image classification and leveraging polynomial transformations for enhanced feature detection.
 
 ## Table of Contents
 1. [Introduction](#introduction)
