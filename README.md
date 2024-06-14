@@ -8,7 +8,7 @@ AE_KAN introduces a autoencoder model using KAN for high-performance image class
 3. [Usage](#usage)
 4. [Contributing](#contributing)
 5. [License](#license)
-6. 
+
 ## Introduction
 The KAN model has demonstrated promising outcomes across various Generative Additive Models (GAMs) since the 1980s. Inspired by a range of sources, this first implementation in KAN in torchkan.py achieves over 97% accuracy with an evaluation time of 0.6 seconds. The quantized model further reduces this to under 0.55 seconds on the MNIST dataset within 8 epochs, utilizing an Nvidia RTX 4090 on Ubuntu 22.04.
 
