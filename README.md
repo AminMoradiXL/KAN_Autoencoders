@@ -3,13 +3,13 @@
 AE_KAN introduces a autoencoder model using KAN for high-performance image classification and leveraging polynomial transformations for enhanced feature detection.
 
 ## Table of Contents
-Overview of the Simplified KAN Model
-KANvolver: Monomial Basis Functions for MNIST Image Classification
-KAL-Net: Utilizing Legendre Polynomials in Kolmogorov Arnold Legendre Networks
-KAC-Net: Utilizing Chebyshev Polynomials
-This project showcases the training, validation, and quantization of the KAN model using PyTorch with CUDA acceleration. The torchkan model is evaluated on the MNIST dataset, demonstrating significant accuracy improvements.
-
-## Project Status: Under Development
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
+6. 
+## Introduction
 The KAN model has demonstrated promising outcomes across various Generative Additive Models (GAMs) since the 1980s. Inspired by a range of sources, this first implementation in KAN in torchkan.py achieves over 97% accuracy with an evaluation time of 0.6 seconds. The quantized model further reduces this to under 0.55 seconds on the MNIST dataset within 8 epochs, utilizing an Nvidia RTX 4090 on Ubuntu 22.04.
 
 My current understanding: I am not sure of the huge hype with KANs, it is imperative to understand that learning weights for activation functions (MLPs) and learning the activation function themselves are pretty old ideas, its unclear how much interpretability they offer. Its also unclear how scalable, quantisable or efficient they are; as such it seems that the quantisability is not an issue and quantised evaluation on the base model leads to only ~0.6% drop in test performance.
